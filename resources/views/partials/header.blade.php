@@ -118,7 +118,7 @@
           <a href="" class=""> Personal Devices</a>
             <ul class="for_Personal1">
               @foreach($home_use as $use)
-              <li class="col-md-3"><a href="{{ route('product',$use->id)}}">For {{ $use->category }}</a></li>
+              <li class="col-md-3"><a href="{{ route('product', $use)}}">For {{ $use->category }}</a></li>
               @endforeach
             </ul>
         </li>

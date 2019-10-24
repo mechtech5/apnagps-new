@@ -38,7 +38,7 @@ Route::get('/formbussiness','EnquiryController@formbussiness')->name('formbussin
 Route::post('/contactus','EnquiryController@contactus')->name('contactus');
 Route::post('/networkdetail','EnquiryController@networkdetail')->name('networkdetail');
 Route::post('/bustarcking','EnquiryController@bustarcking')->name('bustarcking');
-Route::get('/product{id}','ProductController@apna_product')->name('product');
+Route::get('/product/{slug}','ProductController@apna_product')->name('product');
 Route::view('/contact_us','pages.contact_us')->name('contact_us');
 Route::post('/enquiryform','EnquiryController@insertenquiery')->name('enquiryform');
 Route::get('/getdistrict','EnquiryController@getdistrict')->name('getdistrict');

@@ -10,4 +10,8 @@ class Product_category extends Model
     protected $table= 'product_mast';
     protected $guarded = [];
     public $timestamps = true;
+
+    public function getRouteKeyName() {
+    	return 'slug';
+    }
 }
