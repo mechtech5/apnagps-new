@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Product;
-use Session;
+use App\Product_category;
 use App\cart;
+use Illuminate\Http\Request;
+use Session;
 
 class ProductController extends Controller
 {
@@ -109,12 +110,9 @@ class ProductController extends Controller
       
     }
 
-    public function apna_product($category){
-        
-         $ProductStore = Product::where('category_id',$category)->select('*')->get();
-         
-         return view('pages.apna_product',compact('ProductStore'));
-
+    public function apna_product(Product_category $slug){
+      $ProductStore = Product::where('category_id', $slug->id)->select('*')->get();
+      return view('pages.apna_product',compact('ProductStore'));
     }
 
     public function updateProduct(Request $request){

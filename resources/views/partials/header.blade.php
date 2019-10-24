@@ -129,7 +129,7 @@
           <a href="" class="Vehicles">Vehicles Devices</a>
             <ul class="Vehicles1">
               @foreach($comm_use as $use)
-              <li class="col-md-3"><a href="{{ route('product',$use->id)}}">For {{ $use->category }}</a></li>
+              <li class="col-md-3"><a href="{{ route('product', $use)}}">For {{ $use->category }}</a></li>
               @endforeach
             </ul>
         </li>
