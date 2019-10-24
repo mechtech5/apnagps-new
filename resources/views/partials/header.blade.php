@@ -53,7 +53,7 @@
   <div class="container text-right" id="topContent">
    <nav>
       <ul class="nav-menu topContent">
-          <li class="menu upmenu"><img src="img/image/call.png" style="height: 26px;"><b>-9300391003</b></li>
+          <li class="menu upmenu"><img src="/img/image/call.png" style="height: 26px;"><b>-9300391003</b></li>
           <li class="menu upmenu"><a href="http://s0.apnagps.com/track/">Login</a></li>
           <li class="nav-item dropdown"><a href=""  class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -152,7 +152,7 @@
   </header>
  
  <div class="wishes" style="background-color: #dccb04;">
-  <p class="text-center font-weight-bold mb-1 text-danger"><img src="img/school_bus/images (2).jpg" alt="Hotel 1" class="img-fluid" width="50px">   Wish You VERY HAPPY DIWALI FROM LAXYO FAMILY    <img src="img/school_bus/images (2).jpg" alt="Hotel 1" class="img-fluid" width="50px"></p>
+  <p class="text-center font-weight-bold mb-1 text-danger"><img src="/img/school_bus/images (2).jpg" alt="Hotel 1" class="img-fluid" width="50px">   Wish You VERY HAPPY DIWALI FROM LAXYO FAMILY    <img src="/img/school_bus/images (2).jpg" alt="Hotel 1" class="img-fluid" width="50px"></p>
   <p class="text-center font-weight-bold text-muted">ApnaGps soon getting ready for online gps devices delivery and selling</p>
 </div>
     @if($message = Session::get('newuser'))
