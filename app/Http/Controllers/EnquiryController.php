@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Mail;
-use App\mail\OrderShipped;
+use App\Mail\OrderShipped;
 use Illuminate\Http\Request;
 use App\EnquiryDetail;
 use App\businessdetail;

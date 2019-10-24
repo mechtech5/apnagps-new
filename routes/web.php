@@ -31,7 +31,7 @@ Route::get('/heavyvehicle','EnquiryController@heavyvehicle')->name('heavyvehicle
 Route::get('/asitarcker','EnquiryController@asitarcker')->name('asitarcker');
 Route::get('/gpstarcking','EnquiryController@gpstarcking')->name('gpstarcking');
 Route::get('/bustracking','EnquiryController@bustracking')->name('bustracking');
-Route::get('/apnanewtwork','EnquiryController@apnanewtwork')->name('apnanewtwork');
+Route::get('/apna-network','EnquiryController@apnanewtwork')->name('apnanewtwork');
 Route::get('/formenquiry','EnquiryController@formenquiry')->name('formenquiry');
 Route::get('/formfranchise','EnquiryController@formfranchise')->name('formfranchise');
 Route::get('/formbussiness','EnquiryController@formbussiness')->name('formbussiness');

@@ -76,7 +76,7 @@
                 <a class="dropdown-item text-dark" href="{{ route('register_newuser') }}">Demo Request</a>
               </div>
           </li>
-           <li ><a href="{{ route('contact_us')}}">Contact-Form</a></li>
+           <li ><a href="{{ route('contact_us')}}">Contact-Us</a></li>
       </ul>
     </nav>
        
@@ -115,10 +115,10 @@
       $home_use = App\Product_category::where('us_age','home_use')->get();
       @endphp
        <li class="Personal">
-          <a href="" class=""> Device For Personal</a>
+          <a href="" class=""> Personal Devices</a>
             <ul class="for_Personal1">
               @foreach($home_use as $use)
-              <li class="col-md-3"><a href="{{ route('product',$use->id)}}">{{ $use->category }}</a></li>
+              <li class="col-md-3"><a href="{{ route('product',$use->id)}}">For {{ $use->category }}</a></li>
               @endforeach
             </ul>
         </li>
@@ -126,10 +126,10 @@
       $comm_use = App\Product_category::where('us_age','commercial')->get();
       @endphp
            <li class="Vehicles">
-          <a href="" class="Vehicles"> Device For Vehicles</a>
+          <a href="" class="Vehicles">Vehicles Devices</a>
             <ul class="Vehicles1">
               @foreach($comm_use as $use)
-              <li class="col-md-3"><a href="{{ route('product',$use->id)}}">{{ $use->category }}</a></li>
+              <li class="col-md-3"><a href="{{ route('product',$use->id)}}">For {{ $use->category }}</a></li>
               @endforeach
             </ul>
         </li>

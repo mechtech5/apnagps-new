@@ -14,7 +14,7 @@
         <div class="row">
         	<div class="col-lg-6 col-md-6 text-center">
         		<div class="form" id="enquiry_form">
-          <h3 class="text-center font-weight-bold">For Newtwoking Details</h3>
+          <h3 class="text-center font-weight-bold">For Networking Details</h3>
           <div id="errormessage"></div>
           <form action="{{ route('networkdetail') }}" method="post" role="form" class="contactForm">
             @csrf
