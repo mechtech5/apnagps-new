@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Mail;
-use App\mail\OrderShipped;
+use App\Mail\OrderShipped;
 use App\order;
 use App\order_cust;
 use App\Customer;
