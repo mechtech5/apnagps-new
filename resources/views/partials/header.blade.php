@@ -151,10 +151,10 @@
 </div>
   </header>
  
- <div class="wishes" style="background-color: #dccb04;">
+{{--  <div class="wishes" style="background-color: #dccb04;">
   <p class="text-center font-weight-bold mb-1 text-danger"><img src="/img/school_bus/images (2).jpg" alt="Hotel 1" class="img-fluid" width="50px">   Wish You VERY HAPPY DIWALI FROM LAXYO FAMILY    <img src="/img/school_bus/images (2).jpg" alt="Hotel 1" class="img-fluid" width="50px"></p>
   <p class="text-center font-weight-bold text-muted">ApnaGps soon getting ready for online gps devices delivery and selling</p>
-</div>
+</div> --}}
     @if($message = Session::get('newuser'))
       <div class="alert alert-success">  {{$message}}
       </div>
