@@ -57,7 +57,7 @@
           <li class="menu upmenu"><a href="http://s0.apnagps.com/track/">Login</a></li>
           <li class="nav-item dropdown"><a href=""  class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                 <a class="dropdown-item text-dark" href="{{ route('servicesreq')}}">Service Request</a>
+                 <a class="dropdown-item text-dark" href="{{ route('servicesreq')}}">Services Request</a>
                  <a class="dropdown-item text-dark" href="{{ route('installreq')}}">Installation Request</a>
                  <a class="dropdown-item text-dark" href="{{ route('services')}}">Complaint Request</a>
                  <a class="dropdown-item text-dark" href="{{route('subscription')}}">Subscription</a>
